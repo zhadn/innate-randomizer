@@ -1,5 +1,13 @@
 # Chrono Cross Innate Randomizer (by Zhadn)
 
+The innate randomizer assigns innate values at random to all playable characters in the game, with the exception of Lynx and Pip.
+
+In addition, other modifications have been made for a more consistent gameplay experience:
+- Maintains consistency of character innates with a character's respective level 3, 5, and 7 single techs.
+- Maintains consistency of double and triple techs with characters closely associated with those techs (Kid → Yellow, DoubleTake → Yellow).
+- Maintains consistency of characters that appear in boss fights with their randomized innate (Karsh → Blue, Karsh (Cape Howl) → Blue).
+- Sets Lynx's innate as Serge's inverse (Serge → Blue, Lynx → Red).
+
 https://github.com/user-attachments/assets/fa1b6c74-f628-4ef7-8cc6-ed000baf8c03
 
 ## Installation
@@ -9,14 +17,9 @@ https://github.com/user-attachments/assets/fa1b6c74-f628-4ef7-8cc6-ed000baf8c03
     3. Access game files by converting cdrom.dat to cdrom.zip, then copy the four files from `./cdrom.zip/battle/data` to `./CC Innate Randomizer`.
     4. <img width="974" height="684" alt="image" src="https://github.com/user-attachments/assets/0625a55d-9abe-4add-887f-575effefb978" />
 2. Run `randomize_innate.bat`.
-    1. This batch file randomly assigns innate values to all playable characters in the game, with the exception of Lynx and Pip.
-    2. This file maintains consistency of character innates with their respective level 3, 5, and 7 single techs.
-    3. This file maintains consistency of double and triple techs with characters closely associated with those techs.
-    4. This file maintains consistency of characters that appear in boss fights with their randomized innate (`Karsh` → `Blue`, `Karsh (Cape Howl)` → `Blue`).
-    5. This file sets Lynx's innate as Serge's inverse (`Serge` → `Blue`, `Lynx` → `Red`).
-    6. Optionally, review changes in `cheatsheet.txt`.
-3. After executing the batch file, place the modified files (`char.bin`, `char20.bin`, `pgdat.bin`, `monster.bin`) inside `./cdrom.dat/battle/data`.
-4. Play the Chrono Cross Innate Randomizer mod!
+    1.  Optionally, review changes in `cheatsheet.txt`.
+4. After executing the batch file, place the modified files (`char.bin`, `char20.bin`, `pgdat.bin`, `monster.bin`) inside `./cdrom.dat/battle/data`.
+5. Play the Chrono Cross Innate Randomizer mod!
     1. You must start a new game file via New Game. This mod does not work with existing memory card save files.
     2. Restore original game files in Steam on the Chrono Cross Library page via `Manage > Properties... > Installed Files > [Verify integrity of game files]`.
 
